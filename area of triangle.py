@@ -1,6 +1,7 @@
-a = int(input("Enter side A of triangle:"))
-b = int(input("Enter side B of triangle:"))
-c = int(input("Enter side C of triangle:"))
-s=(a+b+c)/2
-a=(s*(s-a)*(s-b)*(s-c))**0.5
-print("Area of Triangle is : ",a)
+def area(b,h):
+    a=0.5*b*h
+    print("Area of triangle is : ",a)
+
+b = int(input("Enter base:"))
+h = int(input("Enter height:"))
+area(b,h)
